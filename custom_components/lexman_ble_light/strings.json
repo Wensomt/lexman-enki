@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Lexman BLE Light",
+        "description": "Wybierz wykrytą żarówkę Bluetooth albo wpisz adres ręcznie.",
+        "data": {
+          "device": "Urządzenie Bluetooth",
+          "address": "Adres BLE",
+          "name": "Nazwa",
+          "hue_offset": "Korekta odcienia (-180..180)"
+        }
+      },
+      "manual": {
+        "title": "Lexman BLE Light — ręcznie",
+        "data": {
+          "address": "Adres BLE",
+          "name": "Nazwa",
+          "hue_offset": "Korekta odcienia (-180..180)"
+        }
+      },
+      "bluetooth_confirm": {
+        "title": "Lexman BLE Light",
+        "description": "Dodać {name} ({address})?",
+        "data": {
+          "name": "Nazwa",
+          "hue_offset": "Korekta odcienia (-180..180)"
+        }
+      }
+    },
+    "error": {
+      "required": "To pole jest wymagane"
+    },
+    "abort": {
+      "already_configured": "To urządzenie jest już skonfigurowane"
+    }
+  }
+}
